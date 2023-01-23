@@ -1,31 +1,86 @@
 body{
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
-*{
-    border: solid 1px black;
-}
+
 .background-image{
     height: 100vh;
-    flex-basis: 30%;
+    flex-basis: 45%;
+
+
+    /* BACK GROUND IMAGE */
     background-image: url("../Sign-Up-Form-Odin/images/wrc-legendario-walter-rohrl.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-color: lightgray;
+
+    /* TEXT*/
+    font-size: large;
+    color: white;
+
 }
 .main-content{
     height: 100vh;
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    background-color: #d3d3d3;
+    font-size: xx-large;
+    
 }
 .row{
     display: flex;
     flex-grow: 1;
+}
+.form-box{
+    height: 40vh;
+    background-color:#909675;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 ul{
     list-style-type:none;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#groupb{
+    margin-top: 70px;
+    background-color: #7b7d77;
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.group-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    color: whitesmoke
+}
+#B{
+    color: red;
+    opacity: 3;
+}
+#redstripe{
+    display: flex;
+    flex-basis: 0.5%;
+    height: 100vh;
+    background-color: #a81100;
+}
+.main-content-boxes{
+    width: 75vh;
+}
+form{
+
+    display: flex;
+    background-color: white;
+    justify-content: stretch;
 }
