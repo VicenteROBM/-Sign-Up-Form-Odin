@@ -1,87 +1,23 @@
 body{
-    height: 100vh;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-.background-image{
-    height: 100vh;
-    flex-basis: 55%;
-    /* BACK GROUND IMAGE */
+#maincontent,
+#main{
+    display: flex;
+}
+#groupB{
+    display: flex;
     background-image: url("../Sign-Up-Form-Odin/images/wrc-legendario-walter-rohrl.avif");
-    background-repeat: no-repeat;
     background-position: center;
-    background-color: lightgray;
-    /* TEXT*/
-    font-size: large;
-    color: white;
-}
-.row{
-    display: flex;
-    flex-grow: 1;
-}
-#groupb{
-    margin-top: 70px;
-    background-color: #7b7d77;
-    opacity: 0.65;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 5px;
-    padding-left: 2vh;
-}
-.group-text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 65px;
-    font-weight: 600;
-    font-style:italic;
-    color: whitesmoke;
-    opacity: 1;
-}
-#B{
-    color: red;
-    opacity: 1;
-}
-#redstripe{
-    display: flex;
-    flex-basis: 0.2%;
+    flex-basis: 50%;
     height: 100vh;
-    background-color: #a81100;
 }
-.main-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 1.5%;
+#maincontent{
     flex-basis: 100%;
-    background-color: #f4f5d7;
-}
-.information{
-    display: flex;
-    gap: 2rem;
-}
-ul{
-    list-style-type: none;
-}
-.sometext{
-    font-weight: 500;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3.25vh;
-    max-width: 90vh;
-    margin: 0;
-    margin-bottom:1.5vh;
-}
-#form-box{
-    background-color: #b0b09d;
-    color: black;
-    font-size: 2vh;
-    width: 90vh;
-    border: 1px;
-    border-radius: 25px;
-    align-items: center;
-    padding: 30px;
-    margin: 0;
-}
-#text-in-form{
-    font-size: 10px;
+    background-color: #d3d4ae;
+    flex-direction: column;
+    padding-left: 30px;
+    justify-content: space-around;
+    align-items: flex-start;
 }
